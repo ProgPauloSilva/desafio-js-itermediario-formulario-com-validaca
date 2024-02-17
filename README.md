@@ -16,8 +16,7 @@ Este é um projeto simples de formulário web que utiliza HTML, CSS e JavaScript
 
 ### Captura de tela
 
-![Página inicial](./src/imagens/formulario-01.png)
-![Página com erro](./src/imagens/formulario-02.png)
+![Página inicial](./src/imagens/gif-Pagina.gif)
 
 ### Estrutura do projeto
 
