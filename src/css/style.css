@@ -1,0 +1,78 @@
+body {
+    background: url(../imagens/bg-repeat.jpg)top left repeat-x;
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-principal{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.area-texto{
+    width: 300px;
+    color: #ffffff;
+}
+.area-texto h1{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+.area-texto p{
+    font-size: 1.5rem;
+}
+.area-formulario{
+    background-color: #ffffff;
+    width: 340px;
+    padding: 20px;
+}
+.formulario .area-input{
+    margin-bottom: 15px;
+}
+.formulario .area-input .input{
+    width: 100%;
+    padding: 9px;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid #000000;
+}
+.formulario .area-input .input::placeholder{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #a8a8a8;
+}
+.formulario .area-input.requerido .input{
+    outline-color: #f52e2e;
+    border-color: #f52e2e;
+}
+.formulario .area-input textarea.input{
+    min-height: 100px;
+}
+.formulario .area-input .campo-obrigatorio{
+    font-size: 0.8rem;
+    color: #f52e2e;
+    position: absolute;
+    display: none;
+}
+.formulario .area-input.requerido .campo-obrigatorio{
+    display: block;
+}
+.formulario .texto-campo-obrigatorio{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.formulario .btn-enviar{
+    width: 100%;
+    background-color: #3ccc87;
+    padding: 12px;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

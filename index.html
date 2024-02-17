@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Formulário de Validação</title>
+</head>
+
+<body>
+    <div class="container">
+        <main class="area-principal">
+            <section class="area-texto">
+                <h1>
+                    Ficou com dúvida?<br>
+                    Nos mande uma mensagem!
+                </h1>
+                <p>
+                    caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.
+                </p>
+            </section>
+
+            <section class="area-formulario">
+                <form class="formulario">
+                    <div class="area-input">
+                        <input type="text" name="nome" placeholder="Nome completo *" class="input">
+                        <p class="campo-obrigatorio">campo obrigatório</p>
+                    </div>
+
+                    <div class="area-input">
+                        <input type="text" name="email" placeholder="Email *" class="input">
+                        <p class="campo-obrigatorio">campo obrigatório</p>
+                    </div>
+
+                    <div class="area-input">
+                        <input type="text" name="telefone" placeholder="telefone *" class="input">
+                        <p class="campo-obrigatorio">campo obrigatório</p>
+                    </div>
+
+                    <div class="area-input">
+                        <textarea name="mensagem" placeholder="Mensagem *" class="input"></textarea>
+                        <p class="campo-obrigatorio">campo obrigatório</p>
+                    </div>
+                    <p class="texto-campo-obrigatorio">
+                        * campos obrigatórios
+                    </p>
+                    <button type="button" id="btn-enviar" class="btn-enviar">
+                        Enviar
+                    </button>
+                </form>
+
+            </section>
+        </main>
+    </div>
+
+
+
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
+
+<!-- name="formulario" onsubmit="return validarFormulario()"  -->
