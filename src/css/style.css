@@ -51,8 +51,13 @@ body {
     outline-color: #f52e2e;
     border-color: #f52e2e;
 }
+.formulario .area-input.digitado-correto .input{
+    outline: #3ccc87;
+    border-color: #3ccc87;
+}
 .formulario .area-input textarea.input{
     min-height: 100px;
+    resize: none;
 }
 .formulario .area-input .campo-obrigatorio{
     font-size: 0.8rem;

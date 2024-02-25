@@ -1,0 +1,17 @@
+@media(max-width: 688px){
+    .area-principal{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .area-texto{
+        text-align: center;
+    }
+    .area-texto h1{
+        font-size: 3rem;
+        margin-bottom: 11px;
+    }
+    .area-texto p{
+        font-size: 1.8rem;
+    }
+}
