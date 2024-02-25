@@ -8,8 +8,8 @@ Este é um projeto simples de formulário web que utiliza HTML, CSS e JavaScript
     - [Captura de tela](#captura-de-tela)
     - [Estrutua do projeto](#estrutura-do-projeto)
 - [O processo](#o-processo)
-    - [Construído com](#construido-com)
-    - [O desafío](#o-desafio)
+    - [Construído com](#construído-com)
+    - [O desafío](#o-desafío)
     - [Como usar](#como-usar)
 
 ## Visão geral
